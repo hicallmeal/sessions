@@ -2,3 +2,13 @@ html {
 	padding:0;
 	margin:0;
 }
+
+.header {
+	background-color:grey;
+	border-top: 10px solid;
+}
+
+body {
+	background-color:#70787C;
+	margin:0;
+}
