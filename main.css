@@ -5,8 +5,11 @@ html {
 
 .header {
 	background-color:grey;
-	border-top: 10px solid;
 }
+
+.title {
+	text-align:center;
+	color: dark grey;
 
 body {
 	background-color:#70787C;
