@@ -5,12 +5,27 @@
 	<link rel="stylesheet" href="./main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-	<div class="header">
-      <h1 class="title"> Sample Site for Sessions </h1>
-	</div> 
-	
-	<div class="main">
-		<p>sample text</p>
+	<div id="logo">
+		<h1 id="s_logo">sessions</h1>
 	</div>
-</body>
+	
+	<div id="main_container">
+		<div id="configuration">
+		<h3>Configuration</h3> 
+			<div id="setup">
+				<div id="set_name">
+					<label for="dname" >Set Display name:</label>
+					<input type="text" id="name" name="dname" placeholder="Display name.." value="">
+				</div>
+				<div id="set_local">
+					<label for="Location">Set Location:</label>
+					<input type="text" id="location" name="Location" placeholder="Location..">
+				</div>
+				<div id="config_accept">
+					<button type="Submit" class="accept_button" value="Submit" onclick='alert("Hello " + document.getElementById("name").value)'>Accept</button>
+				</div>
+			</div>
+		</div>
+				
