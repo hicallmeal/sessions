@@ -4,6 +4,7 @@
 	<link rel="icon" href="./S Logo.png">
 	<link rel="stylesheet" href="./main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./javascript.js"></script>
 </head>
 
 <body>
@@ -17,14 +18,15 @@
 			<div id="setup">
 				<div id="set_name">
 					<label for="dname" >Set Display name:</label>
-					<input type="text" id="name" name="dname" placeholder="Display name.." value="">
+					<input type="text" id="name" name="Name" placeholder="Display name..">
 				</div>
 				<div id="set_local">
 					<label for="Location">Set Location:</label>
 					<input type="text" id="location" name="Location" placeholder="Location..">
+					<p id="c_error"></p>
 				</div>
 				<div id="config_accept">
-					<button type="Submit" class="accept_button" value="Submit" onclick='alert("Hello " + document.getElementById("name").value + " from " + document.getElementById("location").value)'>Accept</button>
+					<button class="accept_button" value="Submit" onclick="onAccept()">Accept</button>
 				</div>
 			</div>
 		</div>
