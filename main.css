@@ -90,6 +90,9 @@ input:focus::placeholder {
 	padding-left:46px;
 }
 
+#c_error {
+}
+
 .accept_button {
 	font-size:15px;
 	padding:10px 15px;
